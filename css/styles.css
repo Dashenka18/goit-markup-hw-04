@@ -196,6 +196,8 @@ address {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
 
   }
   
@@ -477,8 +479,13 @@ address {
     justify-content: center;
 }
 
-.icon-link:hover{
+.icon-link:hover, .icon-link:focus{
     background-color: var(--hover-color);
+}
+
+.svg-icon{
+    height: 16px;
+    width: 16px;
 }
 
 
@@ -518,7 +525,7 @@ address {
     fill: var(--grey-color);
 }
 
-.customers-link:hover{
+.customers-link:hover, .customers-link:focus{
     fill: var(--hover-color);
     border: 1px solid var(--hover-color);
 }
@@ -570,6 +577,10 @@ text-align: center;
 cursor: pointer;
 border-radius: 4px;
 border: 1px solid var(--buttons-2page)
+}
+
+.second-nav:hover, .second-nav:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .services-list{
@@ -703,7 +714,7 @@ flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.1);
   }
 
-  .basement-link:hover{
+  .basement-link:hover, .basement-link:focus{
     background-color: var(--green-color);
   }
 
