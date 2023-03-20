@@ -230,7 +230,8 @@ address {
   }
   
   .active-btn:hover,
-  .active-btn:active {
+  .active-btn:active,
+  .active-btn:focus {
     color: var(--hero-title-buttons);
     background-color: var(--hover-color);
   }
